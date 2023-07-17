@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0 100px;
+  padding-top: 500px;
+  padding-bottom: 1000px;
+  overflow-x: hidden;
+  background-color: #161616;
+}
+
+/* .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 200vh;
+  width: 100%;
+} */
+
+.text > p > div {
+  background: linear-gradient(
+    to right,
+    rgb(255, 255, 255) 50%,
+    rgb(37, 37, 37) 50%
+  );
+  background-size: 200% 100%;
+  background-position-x: 100%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  /*   margin-bottom: -250px; */
+  margin-left: 50px;
+  line-height: 1.2;
+  /*   outline: 6px dotted teal; */
+  font-size: 10vw;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 0 20px;
+    padding-top: 500px;
+    padding-bottom: 1000px;
+  }
+}
